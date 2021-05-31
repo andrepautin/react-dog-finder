@@ -8,6 +8,15 @@ import duke from "./duke.jpg";
 import tubby from "./tubby.jpg";
 import perry from "./perry.jpg";
 
+/** App component
+ * 
+ * Props:
+ * - dogs = [{name, age, src, facts}, {name, age, src, facts}...]
+ * 
+ * App -> NavBar
+ *     -> Routes
+ *     
+*/
 function App({dogs}) {
   return (
     <div className="App">

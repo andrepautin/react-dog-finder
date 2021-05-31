@@ -1,5 +1,12 @@
 import { NavLink } from "react-router-dom";
 
+/** NavBar component
+ * 
+ * Props:
+ * - dogs = [{name, age, src, facts}, {name, age, src, facts}...]
+ * 
+ * App -> NavBar
+ */
 function NavBar({dogs}) {
 
   return (
